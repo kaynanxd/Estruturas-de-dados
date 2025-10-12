@@ -16,15 +16,14 @@ def primeiro_caractere_unico(palavra):
     for i in range(len(palavra)):
         c = palavra[i]
         contador[c] = contador.get(c, 0) + 1
-        fila.append((c, i)) 
+        fila.append((c, i))
 
-    while fila:
-        c, i = fila.pop(0)  # remove do início da fila
-        if contador[c] == 1:  # se for único
+    for c, i in fila:
+        if contador[c] == 1:
             return i
-
     return -1
 
 print(primeiro_caractere_unico('leetcode'))
 print(primeiro_caractere_unico('loveleetcode'))
+
 print(primeiro_caractere_unico('aabb'))
