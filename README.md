@@ -11,8 +11,7 @@ Implementações de diversos métodos para organização de dados, analisando co
 * **Bubble Sort / Selection Sort:** Algoritmos básicos para pequenos conjuntos.
 * **Insertion Sort:** Eficiente para listas quase ordenadas.
 * **Merge Sort:** Divisão e conquista com complexidade $O(n \log n)$.
-* **Quick Sort:** Ordenação rápida baseada em pivoteamento.
-* *(Adicione outros se houver: Heap Sort, Shell Sort, etc.)*
+* **Quick Sort:** Ordenação rápida baseada em pivoteamento. 
 
 ### 🌳 Estruturas de Árvores (Trees)
 Estudo detalhado de estruturas hierárquicas:
@@ -25,7 +24,6 @@ Estudo detalhado de estruturas hierárquicas:
 * **Listas Encadeadas:** Simples e Duplamente Encadeadas.
 * **Pilhas e Filas (Stack & Queue):** Implementações estáticas e dinâmicas.
 * **Tabelas Hash:** Tratamento de colisões e funções de espalhamento.
-* **Grafos:** Representação por matriz ou lista de adjacência e algoritmos de busca (BFS/DFS).
 
 ---
 
